@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F11973AC173C4D4F00588A39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11973AB173C4D4F00588A39 /* UIKit.framework */; };
+		F11973AE173C4D4F00588A39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11973AD173C4D4F00588A39 /* Foundation.framework */; };
+		F11973B0173C4D4F00588A39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11973AF173C4D4F00588A39 /* CoreGraphics.framework */; };
+		F11973B6173C4D4F00588A39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F11973B4173C4D4F00588A39 /* InfoPlist.strings */; };
+		F11973B8173C4D4F00588A39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F11973B7173C4D4F00588A39 /* main.m */; };
+		F11973BC173C4D4F00588A39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F11973BB173C4D4F00588A39 /* AppDelegate.m */; };
+		F11973BE173C4D4F00588A39 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F11973BD173C4D4F00588A39 /* Default.png */; };
+		F11973C0173C4D4F00588A39 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11973BF173C4D4F00588A39 /* Default@2x.png */; };
+		F11973C2173C4D4F00588A39 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11973C1173C4D4F00588A39 /* Default-568h@2x.png */; };
+		F11973C5173C4D4F00588A39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11973C4173C4D4F00588A39 /* ViewController.m */; };
+		F11973C8173C4D4F00588A39 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11973C6173C4D4F00588A39 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F11973A8173C4D4F00588A39 /* Score Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Score Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11973AB173C4D4F00588A39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F11973AD173C4D4F00588A39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F11973AF173C4D4F00588A39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F11973B3173C4D4F00588A39 /* Score Keeper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Score Keeper-Info.plist"; sourceTree = "<group>"; };
+		F11973B5173C4D4F00588A39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F11973B7173C4D4F00588A39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F11973B9173C4D4F00588A39 /* Score Keeper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Score Keeper-Prefix.pch"; sourceTree = "<group>"; };
+		F11973BA173C4D4F00588A39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F11973BB173C4D4F00588A39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F11973BD173C4D4F00588A39 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F11973BF173C4D4F00588A39 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F11973C1173C4D4F00588A39 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F11973C3173C4D4F00588A39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F11973C4173C4D4F00588A39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F11973C7173C4D4F00588A39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F11973A5173C4D4F00588A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11973AC173C4D4F00588A39 /* UIKit.framework in Frameworks */,
+				F11973AE173C4D4F00588A39 /* Foundation.framework in Frameworks */,
+				F11973B0173C4D4F00588A39 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F119739F173C4D4F00588A39 = {
+			isa = PBXGroup;
+			children = (
+				F11973B1173C4D4F00588A39 /* Score Keeper */,
+				F11973AA173C4D4F00588A39 /* Frameworks */,
+				F11973A9173C4D4F00588A39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F11973A9173C4D4F00588A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F11973A8173C4D4F00588A39 /* Score Keeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F11973AA173C4D4F00588A39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F11973AB173C4D4F00588A39 /* UIKit.framework */,
+				F11973AD173C4D4F00588A39 /* Foundation.framework */,
+				F11973AF173C4D4F00588A39 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F11973B1173C4D4F00588A39 /* Score Keeper */ = {
+			isa = PBXGroup;
+			children = (
+				F11973BA173C4D4F00588A39 /* AppDelegate.h */,
+				F11973BB173C4D4F00588A39 /* AppDelegate.m */,
+				F11973C3173C4D4F00588A39 /* ViewController.h */,
+				F11973C4173C4D4F00588A39 /* ViewController.m */,
+				F11973C6173C4D4F00588A39 /* ViewController.xib */,
+				F11973B2173C4D4F00588A39 /* Supporting Files */,
+			);
+			path = "Score Keeper";
+			sourceTree = "<group>";
+		};
+		F11973B2173C4D4F00588A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F11973B3173C4D4F00588A39 /* Score Keeper-Info.plist */,
+				F11973B4173C4D4F00588A39 /* InfoPlist.strings */,
+				F11973B7173C4D4F00588A39 /* main.m */,
+				F11973B9173C4D4F00588A39 /* Score Keeper-Prefix.pch */,
+				F11973BD173C4D4F00588A39 /* Default.png */,
+				F11973BF173C4D4F00588A39 /* Default@2x.png */,
+				F11973C1173C4D4F00588A39 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F11973A7173C4D4F00588A39 /* Score Keeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11973CB173C4D5000588A39 /* Build configuration list for PBXNativeTarget "Score Keeper" */;
+			buildPhases = (
+				F11973A4173C4D4F00588A39 /* Sources */,
+				F11973A5173C4D4F00588A39 /* Frameworks */,
+				F11973A6173C4D4F00588A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Score Keeper";
+			productName = "Score Keeper";
+			productReference = F11973A8173C4D4F00588A39 /* Score Keeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F11973A0173C4D4F00588A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Veeral Patel";
+			};
+			buildConfigurationList = F11973A3173C4D4F00588A39 /* Build configuration list for PBXProject "Score Keeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F119739F173C4D4F00588A39;
+			productRefGroup = F11973A9173C4D4F00588A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11973A7173C4D4F00588A39 /* Score Keeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F11973A6173C4D4F00588A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11973B6173C4D4F00588A39 /* InfoPlist.strings in Resources */,
+				F11973BE173C4D4F00588A39 /* Default.png in Resources */,
+				F11973C0173C4D4F00588A39 /* Default@2x.png in Resources */,
+				F11973C2173C4D4F00588A39 /* Default-568h@2x.png in Resources */,
+				F11973C8173C4D4F00588A39 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F11973A4173C4D4F00588A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11973B8173C4D4F00588A39 /* main.m in Sources */,
+				F11973BC173C4D4F00588A39 /* AppDelegate.m in Sources */,
+				F11973C5173C4D4F00588A39 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F11973B4173C4D4F00588A39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11973B5173C4D4F00588A39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F11973C6173C4D4F00588A39 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11973C7173C4D4F00588A39 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F11973C9173C4D4F00588A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F11973CA173C4D5000588A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F11973CC173C4D5000588A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Score Keeper/Score Keeper-Prefix.pch";
+				INFOPLIST_FILE = "Score Keeper/Score Keeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F11973CD173C4D5000588A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Score Keeper/Score Keeper-Prefix.pch";
+				INFOPLIST_FILE = "Score Keeper/Score Keeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F11973A3173C4D4F00588A39 /* Build configuration list for PBXProject "Score Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11973C9173C4D4F00588A39 /* Debug */,
+				F11973CA173C4D5000588A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11973CB173C4D5000588A39 /* Build configuration list for PBXNativeTarget "Score Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11973CC173C4D5000588A39 /* Debug */,
+				F11973CD173C4D5000588A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F11973A0173C4D4F00588A39 /* Project object */;
+}
